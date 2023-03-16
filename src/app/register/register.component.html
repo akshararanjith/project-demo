@@ -1,0 +1,16 @@
+<div class="headDiv">
+    <form class="formDiv border p-5 m-5">
+        <div>
+            <input name="username" [(ngModel)]="username" placeholder="Username plaese " type="text"
+                class="form-control">
+        </div>
+        <div class="mt-2">
+            <input name="pswrd" [(ngModel)]="password"  placeholder="password plaese " type="text"
+                class="form-control">
+        </div>
+        <div class="mt-2">
+            <input value="Register" (click)="register()" type="button" class="btn btn-success"> &nbsp;
+            Already Registerd? click here to <a routerLink="" >Login</a>    
+            </div>
+    </form>
+</div>

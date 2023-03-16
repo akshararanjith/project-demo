@@ -1,0 +1,14 @@
+.headDiv {
+
+    width: 100%;
+    height: 100vb;
+    background: url(https://www.simpledte.cl/wp-content/uploads/2019/10/8-beneficios-del-trabajo-remoto-para-las-empresas-768x399.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.formDiv{margin-right: 16%;
+}

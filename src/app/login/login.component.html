@@ -1,0 +1,17 @@
+<div class="headDiv">
+    <form class="formDiv p-5 m-5">
+        <h2 class="text-primary mb-2">
+            <img height="30px" width="30px" [src]="imgURL" alt="Login icon">{{page}} </h2>
+        <div>
+            <input (change)="getUsername($event)" placeholder="Username please" type="text" class="form-control">
+        </div>
+        <div class="mt-2">
+            <input #loginPswd  placeholder="Password please" type="password" class="form-control">
+        </div>
+        <div class="mt-2">
+            <input (click)="login(loginPswd)" value="Login" type="button" class="btn btn-success"> &nbsp;
+            New User? click here to <a href="register">register</a>
+
+        </div>
+    </form>
+</div>
